@@ -1,13 +1,11 @@
 // App.jsx
 import ContactCard from './ContactCard';
-
+import Header from './Header';
 function App() {
   return (
     <>
-      <header style={{ textAlign: 'center', padding: '20px' }}>
-        <h1>My Contacts</h1>
-        <p>Week 1 Practice Project</p>
-      </header>
+
+      <Header />
 
       <main style={{ maxWidth: '500px', margin: '0 auto' }}>
         <ContactCard name="Nehimi" phone="0964174098" label="Work" />

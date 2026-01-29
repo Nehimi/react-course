@@ -9,11 +9,11 @@ function ContactCard({ name, phone, label }) {
       backgroundColor: '#f9f9f9',
       boxShadow: '2px 2px 5px rgba(0,0,0,0.1)'
     }}>
-        <h2 style={{ margin: '0 0 10px 0', color: '#333' }}>{name}</h2>
+    <h2 style={{ margin: '0 0 10px 0', color: '#333' }}>{name}</h2>
       <p style={{ margin: '0', color: '#666' }}>📞 {phone}</p>
       <span style={{
         fontSize: '12px',
-        backgroundColor: label === 'Work' ? '#e1f5fe' : '#fff3e0',
+        backgroundColor: label === 'Work' ? '#72bee1' : '#b38335',
         padding: '2px 8px',
         borderRadius: '5px',
         display: 'inline-block',
